@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block page_content %}
+{% for post in posts %}
+{{ post.author_id,post.body }}<br>
+{% endfor %}
+{% endblock %}
