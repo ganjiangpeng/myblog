@@ -268,6 +268,6 @@ def test_query():
     return render_template('list.html',posts=posts)
 @main.route('/test_make_response')
 def test_make_response():
-    resp = make_response('hellow world!!')
+    resp = make_response('123321123321hellow world!!')
     resp.set_cookie('myname','gan-jiangpeng',max_age=3600)
     return resp
